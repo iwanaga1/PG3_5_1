@@ -17,5 +17,5 @@ public:
 	void AssignMoveLeftCommand2PressKeyA();
 
 	//Dキー押されて右移動コマンド発生
-	void AssignMoveLeftCommand2PressKeyD();
+	void AssignMoveRightCommand2PressKeyD();
 };
