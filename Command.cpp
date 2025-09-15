@@ -3,12 +3,12 @@
 
 ICommand::~ICommand() {}
 
-void MoveRightCommand::Execute(player& player) {
+void MoveRightCommand::Execute(Player& player) {
 
 	player.MoveRight();
 }
 
-void MoveLeftCommand::Execute(player& player) {
+void MoveLeftCommand::Execute(Player& player) {
 
 	player.MoveLeft();
 }
